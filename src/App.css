@@ -4,16 +4,21 @@
     box-sizing: border-box;
     cursor: pointer;
 }
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .app{
     display: flex;
     flex-direction: column;
-    line-height: 80px;
     justify-content: center;
     align-items: center;
 }
 button{
-    width: 130px;
+    width: 180px;
     height: 45px;
     background-color: black;
     color: white;
@@ -27,18 +32,28 @@ button{
     width: 400px;
 }
 
+p{
+    line-height: 50px;
+    margin-bottom: 3%;
+}
 .home{
     display: flex;
     flex-direction: column;
     line-height: 35px;
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 4%;
 }
 
 .home p{
-    width: 700px;
-    padding-top: 2%;
+    width: 600px;
+    padding-top: 1%;
+    }
+
+    
+.app p{
+    width: 600px;
+    padding-top: 1%;
 }
 
 nav{
@@ -46,7 +61,6 @@ nav{
     justify-content: space-between;
     margin: 2% 10%;
 }
-
 .logo{
     font-size: 40px;
 }
@@ -54,3 +68,4 @@ nav{
 .heading{
     font-size: 25px;
 }
+

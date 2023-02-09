@@ -1,6 +1,9 @@
-import {atom} from 'jotai';
+// atom.js
+import { atom } from "jotai";
 
-const count = atom(0)
-const theme = atom(true)
+// atom to manage the theme of the app
+const theme = atom(true);
+// atom to manage the themetext of the app
+const textColor = atom(true);
 
-export {count, theme}
+export {  theme, textColor};
